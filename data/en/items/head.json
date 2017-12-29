@@ -13,9 +13,9 @@
     "tags": ["all", "Meta tag"]
   },
   {
-    "title": "Charset",
+    "title": "Reviewed",
     "priority": "High",
-    "description": "The charset declared (UTF-8) is declared correctly.",
+    "description": "The Resource request has been reviewed by Sales Director.",
     "code": "https://gist.github.com/thedaviddias/7074c2b93faf1ad1f0c2792258a9b060.js",
     "tags": ["all", "Meta tag"]
   },
