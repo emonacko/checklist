@@ -1,10 +1,10 @@
 [
   {
-    "title": "Opportunity identified",
+    "title": "Opportunity",
     "priority": "High",
     "description": "An opportunity has been identified and request for assistance submitted to Sales Director",
     "code": "https://gist.github.com/thedaviddias/bccee9f4dfa728830cf38bb83838d2d3.js",
-    "Date sent": [
+    "documentation": [
       {
         "title": "Determining the character encoding - HTML5 W3C",
         "url": "https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding"
