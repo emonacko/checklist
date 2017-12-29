@@ -13,8 +13,8 @@ $colors: (
   white:        hsl(0, 0%, 100%),
   orange:       #d75637,
   yellow:       hsl(48, 100%, 67%),
-  green:        hsl(141, 71%, 48%),
-  blue:         #415257,
+  green:        #63b32e,
+  blue:         #143b81,
   red:          red
 );
 
@@ -30,8 +30,8 @@ $colors: ('white': ($white, $black), 'black': ($black, $white), 'light': ($light
 
 $shades: ('black-bis': map-get($colors, black-bis), 'black-ter': map-get($colors, black-ter), 'grey-darker': map-get($colors, grey-darker), 'grey-dark': map-get($colors, grey-dark), 'grey': map-get($colors, grey), 'grey-light': map-get($colors, grey-light), 'grey-lighter': map-get($colors, grey-lighter), 'white-ter': map-get($colors, white-ter), 'white-bis': map-get($colors, white-bis)) !default;
 
-$primary: map-get($colors, orange) !default;
-$secondary: map-get($colors, blue) !default;
+$primary: map-get($colors, blue) !default;
+$secondary: map-get($colors, green) !default;
 
 $info: map-get($colors, blue) !default;
 $success: map-get($colors, green) !default;
