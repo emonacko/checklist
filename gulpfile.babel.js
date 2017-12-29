@@ -325,6 +325,9 @@ gulp.task('cdn', () => {
           '/img/logos/logo-front-end-checklist.webp'
         ]
       }))
+      .pipe(rename({
+        basename: 'index'
+      }))
       .pipe(gulp.dest(dirs.dest))
     })
 });
@@ -334,7 +337,7 @@ gulp.task("clean-dist",  () => {
 });
 
 gulp.task("clean-tmp",  () => {
-  return del(['!./dist/index.html', './dist/index-*.html'], {force: true});
+  return del(['!./dist/index.html'], {force: true});
 });
 
 gulp.task("clean-coverage",  () => {
@@ -420,7 +423,7 @@ gulp.task('build', done => {
     ['compile-all-pug'],
     ['compile-styles', 'compress-images', 'webpack'],
     ['cdn'],
-    ['critical', 'copy'],
+    ['copy'],
 
     // ['clean-tmp'],
     done);
