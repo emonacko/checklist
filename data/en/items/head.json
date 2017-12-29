@@ -20,9 +20,9 @@
     "tags": ["all", "Meta tag"]
   },
   {
-    "title": "Resource assigned",
+    "title": "Request denied",
     "priority": "Medium",
-    "description": "A resource has been identified & assigned, requestor notified.",
+    "description": "If request is denied, this portion of checklist will be marked complete and Account Executive notified.",
     "code": "https://gist.github.com/thedaviddias/4f771e7efc07688c090a28ef1121b15e.js",
     "documentation": [
       {
@@ -33,17 +33,17 @@
     "tags": ["all", "Meta tag"]
   },
   {
-    "title": "Viewport",
+    "title": "Request approved",
     "priority": "High",
-    "description": "The viewport is declared correctly.",
+    "description": "A resource request has been submitted via automated process.",
     "code": "https://gist.github.com/thedaviddias/0e25ffd442512c79af684b5042366a3c.js",
     "tags": ["all", "Meta tag"]
   },
   {
-    "title": "Title",
+    "title": "Resource assigned",
     "priority": "High",
-    "description": "A title is used on all pages",
-    "detail": "SEO: Google calculates the pixel width of the characters used in the title and cuts off between 472 and 482 pixels. Average character limit would be around 55 characters",
+    "description": "A resource has been identified & assigned, requestor notified.",
+    // "detail": "SEO: Google calculates the pixel width of the characters used in the title and cuts off between 472 and 482 pixels. Average character limit would be around 55 characters",
     "code": "https://gist.github.com/thedaviddias/65d0df3b6e2ebcb0d3c738b40f6ff313.js",
     "documentation": [
       {
