@@ -71,7 +71,8 @@
       }
     ],
     "tags": ["all", "Meta tag"]
-  },
+  }
+  ]
   // {
   //   "title": "Favicons",
   //   "priority": "Medium",
@@ -252,4 +253,4 @@
   //   ],
   //   "tags": ["all", "Social meta", "testing"]
   // }
-]
+// ]
