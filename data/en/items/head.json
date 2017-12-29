@@ -60,9 +60,9 @@
     "tags": ["all", "Meta tag"]
   },
   {
-    "title": "Request updated",
+    "title": "Request complete",
     "priority": "High",
-    "description": "Request has been updated with assigend resource name and requestor notified.",
+    "description": "Request has been updated with assigend named resource and requestor notified.",
     "code": "https://gist.github.com/thedaviddias/8f3c61ed6cf08b75524d977828337c62.js",
     "documentation": [
       {
