@@ -43,7 +43,7 @@
     "title": "Resource assigned",
     "priority": "High",
     "description": "A resource has been identified & assigned, requestor notified.",
-    // "detail": "SEO: Google calculates the pixel width of the characters used in the title and cuts off between 472 and 482 pixels. Average character limit would be around 55 characters",
+    "detail": "SEO: Google calculates the pixel width of the characters used in the title and cuts off between 472 and 482 pixels. Average character limit would be around 55 characters",
     "code": "https://gist.github.com/thedaviddias/65d0df3b6e2ebcb0d3c738b40f6ff313.js",
     "documentation": [
       {
