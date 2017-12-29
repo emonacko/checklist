@@ -210,30 +210,30 @@
     "detail": "(Except the case where sometimes JS files are loaded asynchronously on top of your page)",
     "tags": ["all", "HTML tag"]
   },
-  // {
-  //   "title": "Facebook Open Graph",
-  //   "priority": "Low",
-  //   "description": "",
-  //   "detail": "All Facebook Open Graph (OG) are tested and no one is missing or with a false information. Images need to be at least 600 x 315 pixels, although 1200 x 630 pixels is recommended. Using og:image:width and og:image:height will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.",
-  //   "code": "",
-  //   "documentation": [
-  //     {
-  //       "title": "A Guide to Sharing for Webmasters",
-  //       "url": "https://developers.facebook.com/docs/sharing/webmasters/"
-  //     },
-  //     {
-  //       "title": "Best Practices - Sharing",
-  //       "url": "https://developers.facebook.com/docs/sharing/best-practices/"
-  //     }
-  //   ],
-  //   "tools": [
-  //     {
-  //       "title": "Test your page with the Facebook OG testing",
-  //       "url": "https://developers.facebook.com/tools/debug/"
-  //     }
-  //   ],
-  //   "tags": ["all", "Social meta", "testing"]
-  // },
+  {
+    "title": "Facebook Open Graph",
+    "priority": "Low",
+    "description": "",
+    "detail": "All Facebook Open Graph (OG) are tested and no one is missing or with a false information. Images need to be at least 600 x 315 pixels, although 1200 x 630 pixels is recommended. Using og:image:width and og:image:height will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.",
+    "code": "",
+    "documentation": [
+      {
+        "title": "A Guide to Sharing for Webmasters",
+        "url": "https://developers.facebook.com/docs/sharing/webmasters/"
+      },
+      {
+        "title": "Best Practices - Sharing",
+        "url": "https://developers.facebook.com/docs/sharing/best-practices/"
+      }
+    ],
+    "tools": [
+      {
+        "title": "Test your page with the Facebook OG testing",
+        "url": "https://developers.facebook.com/tools/debug/"
+      }
+    ],
+    "tags": ["all", "Social meta", "testing"]
+  },
   {
     "title": "Twitter Card",
     "priority": "Low",
