@@ -321,8 +321,7 @@ gulp.task('cdn', () => {
           '/safari-pinned-tab.svg',
           '/manifest.json',
           '/img/social/facebook-banner.jpg',
-          '/img/logos/logo-front-end-checklist.jpg',
-          '/img/logos/logo-front-end-checklist.webp'
+          '/img/logos/logo-wsc.png'
         ]
       }))
       .pipe(rename({
